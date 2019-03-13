@@ -1,0 +1,15 @@
+body {
+  background: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; 
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
