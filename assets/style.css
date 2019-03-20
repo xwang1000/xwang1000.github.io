@@ -5,6 +5,8 @@ pink: rgb(232,108,112)
 
 */
 
+
+
 :root {
   --main-font-color: rgb(81,35,10);
   --pink: rgb(232,108,112);
@@ -19,9 +21,19 @@ body {
   text-align: left; 
   font-weight: 300;
   background: white;
-  height: 100vh;
   color: var(--main-font-color);
   padding: 3rem;
+}
+
+
+@media screen and (max-width: 820px) {
+  html { 
+    font-size: 80%; 
+  }
+
+  body {
+    padding: 2rem;
+  }
 }
 
 h1 {
@@ -31,9 +43,15 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 h3 {
   font-size: 2rem;
   font-weight: 400;
+  margin-top: 3rem;
 }
 
 p {
@@ -88,10 +106,46 @@ a:hover:after {
   top: 0%;
 }
 
+.skill {
+  margin: .5rem 1rem;
+}
+
+.skill-header {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+  opacity: .6;
+}
+
+.skill-set {
+  margin: 0;
+}
+
+.education {
+  margin: 1rem 0;
+}
+
+.education-certificate {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.education-duration {
+  float: right;
+  font-weight: 300;
+  font-size: 1.1rem;
+  opacity: .6;
+}
+
+.education-institution {
+  margin: 0;
+}
+
 .project {
   line-height: 1.2rem;
   margin: 2.5rem 0;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
 }
 
 .project p {
@@ -112,11 +166,19 @@ a:hover:after {
 
 .project-time {
   margin: 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 300;
   opacity: .6;
+  float: right;
 }
 
 .project-footer {
   opacity: .7;
+}
+
+.work-time {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 300;
+  opacity: .6;
 }
