@@ -197,6 +197,7 @@ a:hover:after {
   width: 10rem;
   height: auto;
   margin: 5rem 7rem 0 5rem;
+  opacity: .9;
 }
 
 .art-credit {
@@ -215,14 +216,17 @@ a:hover:after {
   width: 8rem;
   height: auto;
   margin: 1rem 0;
+  margin-left: -2rem;
+  opacity: .9;
 }
 
 .piggie-nav {
   position: fixed;
   right: -9rem;
-  top: 50%;
+  top: 40%;
   padding: 2rem;
   text-align: left;
+  transition: all .4s ease;
 }
 
 .piggie-nav * {
@@ -242,7 +246,6 @@ a:hover:after {
 }
 
 .piggie-nav:hover {
-  cursor: pointer;
   right: 0rem;
   transition: all .4s ease;
 }
