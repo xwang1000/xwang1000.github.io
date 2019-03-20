@@ -1,12 +1,3 @@
-/* 
-font-color:  rgb(81,35,10);
-light-pink: rgb(238,169,171)
-pink: rgb(232,108,112)
-
-*/
-
-
-
 :root {
   --main-font-color: rgb(81,35,10);
   --pink: rgb(232,108,112);
@@ -23,6 +14,7 @@ body {
   background: white;
   color: var(--main-font-color);
   padding: 3rem;
+  position: relative;
 }
 
 .row {
@@ -49,6 +41,7 @@ h1 {
   font-weight: 500;
   font-family: 'Rubik';
   margin: 0;
+  margin-bottom: 3rem;
 }
 
 h2 {
@@ -197,11 +190,59 @@ a:hover:after {
 
 .piggie {
   text-align: center;
+  margin-bottom: 8rem;
 }
 
 .piggie-cup {
   width: 10rem;
   height: auto;
-  margin-top: 5rem;
-  margin-right: 4rem;
+  margin: 5rem 7rem 0 5rem;
+}
+
+.art-credit {
+  color: var(--pink);
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.art-credit-link {
+  background-color: none;
+  color: var(--pink)
+}
+
+.piggie-icecream {
+  width: 8rem;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.piggie-nav {
+  position: fixed;
+  right: -9rem;
+  top: 50%;
+  padding: 2rem;
+  text-align: left;
+}
+
+.piggie-nav * {
+  margin: 0;
+}
+
+.nav-list {
+  margin-left: 3rem;
+  background-color: rgba(265,265,265, .4);
+}
+
+.piggie-bow {
+  width: 8rem;
+  height: auto;
+  margin: 1rem 0;
+  opacity: .9;
+}
+
+.piggie-nav:hover {
+  cursor: pointer;
+  right: 0rem;
+  transition: all .4s ease;
 }
