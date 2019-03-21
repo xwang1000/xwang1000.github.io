@@ -107,6 +107,11 @@ a:hover:after {
   top: 0%;
 }
 
+.header {
+  height: 100vh;
+  padding-bottom: 5rem;
+}
+
 .skill {
   flex: 1;
   margin: .5rem 1rem;
@@ -234,7 +239,7 @@ a:hover:after {
 
 .nav-list {
   margin-left: 3rem;
-  background-color: rgba(265,265,265, .6);
+  background-color: rgba(265,265,265, .8);
 }
 
 .piggie-bow {
