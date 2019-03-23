@@ -114,8 +114,8 @@ a:hover:after {
 
 .skill {
   flex: 1;
-  margin: .5rem 1rem;
   padding: 1rem 0;
+  padding-right: 1rem;
 }
 
 .skill-header {
