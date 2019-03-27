@@ -227,7 +227,7 @@ a:hover:after {
 .piggie-nav {
   position: fixed;
   right: -9rem;
-  top: 40%;
+  top: 35%;
   padding: 2rem;
   text-align: left;
   transition: all .4s ease;
