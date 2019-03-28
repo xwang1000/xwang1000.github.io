@@ -227,6 +227,8 @@ a:hover:after {
   right: -9rem;
   top: 35%;
   padding: 2rem;
+  padding-left: 0;
+  padding-bottom: 0;
   text-align: left;
   transition: all .4s ease;
 }
