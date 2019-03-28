@@ -254,7 +254,7 @@ a:hover:after {
   transition: all .4s ease;
 }
 
-.piggie-nav:active {
+.piggie-nav:focus {
   right: 0rem;
   transition: all .4s ease;
 }
