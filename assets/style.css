@@ -251,3 +251,9 @@ a:hover:after {
   right: 0rem;
   transition: all .4s ease;
 }
+
+.piggie-nav:active {
+  right: 0rem;
+  transition: all .4s ease;
+}
+
