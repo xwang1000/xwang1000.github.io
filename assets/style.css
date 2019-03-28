@@ -39,9 +39,8 @@ body {
 h1 {
   font-size: 4rem;
   font-weight: 500;
-  font-family: 'Rubik';
+  font-family: 'Rubik', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
-  margin-bottom: 3rem;
 }
 
 h2 {
@@ -52,7 +51,7 @@ h2 {
 h3 {
   font-size: 2rem;
   font-weight: 400;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 p {
@@ -108,7 +107,7 @@ a:hover:after {
 }
 
 .header {
-  height: 100vh;
+  height: 90vh;
   padding-bottom: 5rem;
 }
 
