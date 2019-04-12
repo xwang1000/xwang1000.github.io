@@ -114,7 +114,7 @@ a:hover:after {
 
 .skill {
   flex: 1;
-  padding: 1rem 0;
+  padding: .5rem 0;
   padding-right: 1rem;
 }
 
@@ -122,8 +122,8 @@ a:hover:after {
   font-size: 1.1rem;
   font-weight: 500;
   margin: 0;
-  opacity: .6;
-  line-height: 1.5rem;
+  opacity: .4;
+  line-height: 1rem;
 }
 
 .skill-set {
@@ -154,8 +154,7 @@ a:hover:after {
 
 .project {
   line-height: 1.2rem;
-  margin: 2.5rem 0;
-  /* padding-left: 1rem; */
+  margin: 2rem 0;
 }
 
 .project p {
@@ -164,13 +163,14 @@ a:hover:after {
 
 .project-header {
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  opacity: .6;
 }
 
 .project-link {
   font-size: 1.2rem;
   font-weight: 300;
-  opacity: .8;
+  opacity: 1;
   float: right;
 }
 
