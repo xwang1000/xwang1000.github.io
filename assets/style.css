@@ -261,3 +261,7 @@ a:hover:after {
   transition: all .4s ease;
 }
 
+.small-text {
+  opacity: .6;
+  font-size: 90%;
+}
