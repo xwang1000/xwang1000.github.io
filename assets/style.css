@@ -2,13 +2,13 @@
   --main-font-color: rgb(81,35,10);
   --pink: rgb(232,108,112);
   --light-pink: rgb(238,169,171);
+  --light-pink-transparent: rgba(238, 169, 171, .2);
   --light-blue: rgb(187,250,228);
-  --light-yellow: rgb(246,250,185);
-  --light-yellow-transparent: rgba(246,250,185 .5)
+  --light-blue-transparent: rgba(187,250,228, .2);
 }
 
 html {
-  font-size: 80%;
+  font-size: 90%;
 }
 
 body {
@@ -113,6 +113,15 @@ hr {
   margin-bottom: 20px;
   opacity: .2;
   border: 0.5px solid var(--main-font-color);
+}
+
+.tag {
+  color: white;
+  font-size: 1.2rem;
+  padding: 6px 12px;
+  display: inline-block;
+  background-color: var(--light-pink);
+  border-radius: 4px;
 }
 
 .skill {
