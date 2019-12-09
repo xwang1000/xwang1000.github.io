@@ -21,11 +21,6 @@ body {
   position: relative;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
 @media screen and (max-width: 820px) {
   html { 
     font-size: 80%; 
@@ -207,9 +202,8 @@ a:hover:after {
 
 .art-credit {
   color: var(--pink);
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
+  text-align: right;
+  margin-top: 90px;
 }
 
 .art-credit-link {
@@ -264,4 +258,9 @@ a:hover:after {
 .small-text {
   opacity: .6;
   font-size: 90%;
+}
+
+/* projects */
+.projects {
+  margin-top: 90px;
 }
