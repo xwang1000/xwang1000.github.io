@@ -86,6 +86,7 @@ li {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: var(--main-font-color);
   position: relative;
@@ -105,6 +106,13 @@ a:after {
 
 a:hover:after {
   top: 0%;
+}
+
+hr {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  opacity: .2;
+  border: 0.5px solid var(--main-font-color);
 }
 
 .skill {
@@ -203,7 +211,7 @@ a:hover:after {
 .art-credit {
   color: var(--pink);
   text-align: right;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 
 .art-credit-link {
