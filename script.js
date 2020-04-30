@@ -7,4 +7,6 @@
 //    return false;
 //  });
 
-AOS.init();
+$(function() {
+  AOS.init();
+});

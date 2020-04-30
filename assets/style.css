@@ -27,9 +27,23 @@ body {
 }
 
 footer {
-  max-width: 1200px;
-  padding-bottom: 6rem;
+  color: white;
+  text-align: center;
+  background-color: var(--pink);
+  padding: 3rem 2rem 10rem 2rem;
   margin: auto;
+  position: relative;
+}
+
+footer a {
+  color: white;
+}
+
+.art-credit {
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 @media screen and (max-width: 820px) {
@@ -128,6 +142,10 @@ hr {
   margin: auto;
 }
 
+#header.fade-out {
+  opacity: 0.3;
+}
+
 .tag {
   color: white;
   font-size: 1rem;
@@ -136,6 +154,11 @@ hr {
   display: inline-block;
   background-color: var(--light-pink);
   border-radius: 4px;
+}
+
+.content {
+  max-width: 1200px;
+  margin: auto;
 }
 
 .skill {
@@ -230,16 +253,6 @@ hr {
   opacity: .9;
 }
 
-.art-credit {
-  color: var(--pink);
-  text-align: right;
-  margin-top: 20px;
-}
-
-.art-credit-link {
-  color: var(--pink)
-}
-
 .piggie-icecream {
   width: 8rem;
   height: auto;
@@ -295,10 +308,21 @@ hr {
   margin-top: 90px;
 }
 
+.projects__title {
+  text-align: center;
+  /* background-color: #eee; */
+  margin: 0;
+  padding: 2rem 0;
+}
+
 .project {
   /* position: sticky; */
   top: 0;
   background-color: white;
+}
+
+.project:nth-child(even) {
+  background-color: #eee;
 }
 
 .project__content {
@@ -323,19 +347,12 @@ hr {
 
   .project__text {
     flex: 1;
+    padding-left: 3rem;
   }
 
   .project__screenshots {
     flex: 2;
   }
-}
-
-.bg--pink {
-  background-color: var(--pale-pink);
-}
-
-.bg--purple {
-  background-color: var(--pale-purple);
 }
 
 #adalat-screenshot {
@@ -354,9 +371,17 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .projects--min {
+    flex-direction: column;
+  }
 }
 
 .project--min {
-  padding: 2rem;
+  padding: 3rem 2rem;
   text-align: center;
 }
