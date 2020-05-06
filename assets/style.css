@@ -43,7 +43,7 @@ footer a {
 .art-credit {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  padding: 1rem;
+  margin-right: 1rem;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -78,10 +78,10 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-weight: 400;
-  margin-top: 5rem;
 }
 
 p {
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 1.3rem;
   font-weight: 200;
   line-height: 2rem;
@@ -155,7 +155,7 @@ hr {
 
 @media (max-width: 800px) {
   .header {
-    max-height: 90vh;
+    max-height: 85vh;
     padding: 10rem 0;
   }
 
@@ -171,10 +171,14 @@ h1.hello {
 
 h2.hello {
   opacity: 0.5;
-  letter-spacing: 1px;
-  line-height: 2;
+  line-height: 1;
+  letter-spacing: 0.5px;
 }
 
+p.hello {
+  font-weight: light;
+  color: #cfebff;
+}
 
 .tag {
   color: white;
@@ -190,11 +194,6 @@ h2.hello {
   max-width: 1200px;
   padding: 2rem;
   margin: auto;
-}
-
-@media (max-width: 800px) {
-  .container {
-  }
 }
 
 .skill {
@@ -235,6 +234,23 @@ h2.hello {
 
 .education-institution {
   margin: 0;
+}
+
+.services {
+  text-align: center;
+  color: white;
+  background-color: var(--dark-blue);
+}
+
+.services__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service__item {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 2rem;
 }
 
 .project {
@@ -435,8 +451,17 @@ h2.hello {
 }
 
 #hero-arrow {
-  box-shadow: 0 0 8px rgba(0,0,0,.2);;
+  background-color: var(--teal);
+  box-shadow: 0 0 8px rgba(0,0,0,.2);
   position: absolute;
   bottom: 0;
   margin-bottom: -1rem;
+}
+
+#hero-arrow svg {
+  transition: 0.4s ease;
+}
+
+#hero-arrow:hover svg {
+  transform: translateY(8px);
 }
